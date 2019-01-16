@@ -1,10 +1,10 @@
-const toDecimal = require('./toDecimal');
-const fromDecimal = require('./fromDecimal');
-const hexToUtf8 = require('./hexToUtf8');
-const utf8ToHex = require('./utf8ToHex');
-const toDate = require('./toDate');
-const fromDate = require('./fromDate');
-const removeNumericKeys = require('./removeNumericKeys');
+const toDecimal = require('./lib/toDecimal');
+const fromDecimal = require('./lib/fromDecimal');
+const hexToUtf8 = require('./lib/hexToUtf8');
+const utf8ToHex = require('./lib/utf8ToHex');
+const toDate = require('./lib/toDate');
+const fromDate = require('./lib/fromDate');
+const removeNumericKeys = require('./lib/removeNumericKeys');
 
 module.exports = {
   toDecimal,
