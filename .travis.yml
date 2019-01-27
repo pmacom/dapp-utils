@@ -8,11 +8,12 @@ cache:
   directories:
     - ~/.npm
 
-install: npm install
+install: npm install --no-save
 
 script:
   - npm run lint:commit:ci
   - npm run lint
+  - npm run test:ci
 
 after_success:
   - npx -p semantic-release@7 -c "semantic-release pre && npm publish && semantic-release post"
