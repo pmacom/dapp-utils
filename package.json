@@ -1,17 +1,11 @@
 {
   "name": "dapp-utils",
-  "version": "0.1.0",
+  "version": "0.0.0-semantically-released",
   "description": "dApp utility methods",
   "main": "index.js",
   "files": [
     "index.js",
-    "hexToUtf8.js",
-    "utf8ToHex.js",
-    "toDecimal.js",
-    "fromDecimal.js",
-    "toDate.js",
-    "fromDate.js",
-    "removeNumericKeys.js"
+    "lib"
   ],
   "scripts": {
     "fix": "npm run format && npm run lint -- --fix",
