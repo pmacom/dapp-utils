@@ -42,6 +42,7 @@
     "prettier": "^1.15.3"
   },
   "dependencies": {
+    "utils-copy-error": "^1.0.1",
     "web3-utils": "^1.0.0-beta.37"
   }
 }
