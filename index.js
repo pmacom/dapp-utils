@@ -5,6 +5,7 @@ const utf8ToHex = require('./lib/utf8ToHex');
 const toDate = require('./lib/toDate');
 const fromDate = require('./lib/fromDate');
 const removeNumericKeys = require('./lib/removeNumericKeys');
+const parseRevert = require('./lib/parseRevert');
 
 module.exports = {
   toDecimal,
@@ -14,4 +15,5 @@ module.exports = {
   toDate,
   fromDate,
   removeNumericKeys,
+  parseRevert,
 };
