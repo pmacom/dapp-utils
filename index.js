@@ -6,7 +6,7 @@ const toDate = require('./lib/toDate');
 const fromDate = require('./lib/fromDate');
 const removeNumericKeys = require('./lib/removeNumericKeys');
 const parseRevert = require('./lib/parseRevert');
-const throwRevert = require('./lib/throwRevert');
+const RevertError = require('./lib/RevertError');
 
 module.exports = {
   toDecimal,
@@ -17,5 +17,5 @@ module.exports = {
   fromDate,
   removeNumericKeys,
   parseRevert,
-  throwRevert,
+  RevertError,
 };
