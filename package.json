@@ -13,8 +13,8 @@
     "lint": "eslint .",
     "lint:commit": "commitlint .",
     "lint:commit:ci": "commitlint-travis",
-    "test": "jest",
-    "test:ci": "jest --verbose=true --silent --ci --coverage"
+    "test": "jest --verbose --watch",
+    "test:ci": "jest --verbose --silent --ci --coverage"
   },
   "repository": {
     "type": "git",
